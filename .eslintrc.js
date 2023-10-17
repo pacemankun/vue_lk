@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: TOSS小熊
+ * @version: 1.0.0
+ * @Author: liukun
+ * @Date: 2023-10-17 23:32:05
+ * @LastEditTime: 2023-10-18 00:04:12
+ * @LastEditors: liukun liukun0227@163.com
+ */
+
 module.exports = {
   env: {
     browser: true,
