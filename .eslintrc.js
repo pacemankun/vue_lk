@@ -3,7 +3,7 @@
  * @version: 1.0.0
  * @Author: liukun
  * @Date: 2023-10-17 23:32:05
- * @LastEditTime: 2023-10-23 22:11:16
+ * @LastEditTime: 2023-10-23 22:57:23
  * @LastEditors: liukun liukun0227@163.com
  */
 
@@ -44,7 +44,11 @@ module.exports = {
         // 定义配置的运行环境
         node: true,
       },
-      files: ['.eslintrc.{js,cjs}', 'lint-staged.config.{js,cjs}'], // 特定文件
+      files: [
+        '.eslintrc.{js,cjs}',
+        'lint-staged.config.{js,cjs}',
+        'commitlint.config.{js,cjs}',
+      ], // 特定文件
       parserOptions: {
         sourceType: 'script',
         // 表示代码是纯粹的js脚本文件,没有使用任何模块化系统
