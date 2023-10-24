@@ -12,7 +12,7 @@ console.info(b)
 let ttt = function (a) {
   a + 90
 }
-let t2t2 = 90
+let t2t2 = 900
 
 const cc = strind => {
   console.info(strind.length)
