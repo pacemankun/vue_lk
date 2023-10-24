@@ -3,7 +3,7 @@
  * @version: 1.0.0
  * @Author: liukun
  * @Date: 2023-10-17 23:32:05
- * @LastEditTime: 2023-10-23 22:57:23
+ * @LastEditTime: 2023-10-24 18:24:50
  * @LastEditors: liukun liukun0227@163.com
  */
 
@@ -30,8 +30,8 @@ module.exports = {
   },
   // 具体规则-空则使用默认规则
   rules: {
-    'no-console': 'warn',
-    // "no-console": "error",
+    // 'no-console': 'warn',
+    'no-console': 'error',
     'no-var': 1,
 
     'no-unused-vars': 'off', // you must disable the base rule, as it can report incorrect errors
