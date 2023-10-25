@@ -1,16 +1,26 @@
+<!--
+ * @Descripttion: TOSS小熊
+ * @version: 1.0.0
+ * @Author: liukun
+ * @Date: 2022-11-14 19:18:22
+ * @LastEditTime: 2022-12-01 17:29:12
+ * @LastEditors: liukun liukun0227@163.com
+-->
 <script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
+const props = defineProps(['msg'])
+// defineProps<{
+//   msg: string;
+// }>();
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">{{ props.msg }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      What's next?
     </h3>
   </div>
 </template>
@@ -19,7 +29,6 @@ defineProps<{
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  position: relative;
   top: -10px;
 }
 
